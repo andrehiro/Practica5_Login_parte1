@@ -14,8 +14,22 @@ Para realizar esta practica necesitas los siguientes programas:
   * models  
     - entities
   * static
-  * - css
+    - css
     - img
   * templates
-  * - auth
+    - auth
 - env
+
+#### Archivos de la aplicacion
+En la carpeta source creamos los archivos app.py y config.py, en estos creamos la clase DevelpmentConfig y en app.py importamos esta clase.
+
+Despues creamos la pagina principal de html llamada base.html, la cual podemos mostrar con render_template. Lo unico que le debemos a agregar a esta pagina que no conocemos son los siguietes bloques de codigo en donde corresponden.
+
+{% block miCSS %}{% endblock %}
+{% block titulo %}{% endblock %}
+{% block cuerpo %} {% endblock %}
+
+#### Uso de formularios
+Por ulitmo agregaremos un formulario a la pagina. Puedes encontrar plantillas de formularios en esta liga:
+
+https://mdbootstrap.com/docs/standard/extended/login/
