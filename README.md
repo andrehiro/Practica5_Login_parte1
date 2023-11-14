@@ -11,6 +11,11 @@ Para realizar esta practica necesitas los siguientes programas:
 ##### Crear la estructura del directorio
 - database
 - src
-- * models  
-- * - entities
-- * static
+  * models  
+    - entities
+  * static
+  * - css
+    - img
+  * templates
+  * - auth
+- env
